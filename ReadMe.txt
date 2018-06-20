@@ -1,4 +1,6 @@
-This a Maven API Demo Test Project.  It uses Cucumber to run automated acceptance tests written in a behavior-driven development (BDD) style with Gherkin language parser.  Cucumber features and scenarios are scripted in the studentapipostrequest.feature file.
+This a Maven API Demo Test Project.  It uses Cucumber to run automated acceptance tests written in a behavior-driven development (BDD) style with Gherkin language parser.  
+
+Cucumber features and scenarios are scripted in the studentapipostrequest.feature file.
 
 It uses "https://webapp.astadia-taas.com/api/student" API end points for the testing and configured in the file DemoStudentApiPostRequestSteps.java
 
