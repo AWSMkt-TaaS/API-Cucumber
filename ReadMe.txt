@@ -1,9 +1,10 @@
-This a Maven API Test Project
+This a Maven API Demo Test Project.
+
 It uses Cucumber to run automated acceptance tests written in a behavior-driven development (BDD) style with Gherkin language parser.
 Cucumber features and scenarios are scripted in the studentapipostrequest.feature file.
 It uses "https://webapp.astadia-taas.com/api/student" API end points for the testing and configured in the file DemoStudentApiPostRequestSteps.java
 
-Test Engineer can make changes  in the "studentapipostrequest.feature" file 
+Test Engineer can make changes  in the "studentapipostrequest.feature" file. 
 
 Test Engineer can run the test, right click on pom.xml and do:
 	- mvn clean
@@ -22,5 +23,7 @@ Test Engineer can also run the maven test using CLI commands:
 	  
 	- The test result will be available in the following location: 
 	  target/cucumber-report/json/student-screenfunctional-testreport/index.html
+	  
+The latest version of this demo test project can be cloned from the github location: https://github.com/AWSMkt-TaaS/API-Cucumber
 	  
 	  
